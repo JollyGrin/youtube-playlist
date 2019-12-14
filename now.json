@@ -1,0 +1,8 @@
+{
+    "build": {
+        "env": {
+            "APIKEY": "@deanred-yt-key",
+            "PLAYLIST": "@deanred-yt-playlist"
+        }
+    }
+}
