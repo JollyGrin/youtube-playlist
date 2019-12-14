@@ -24,6 +24,11 @@ export default class index extends Component {
           <div className='columns'>
             <div className='column is-4 is-offset-4'>
               <h1 className='title'>Drone Videos</h1>
+              <h2 className='subtitle'>
+                <a href='https://github.com/JollyGrin/youtube-playlist'>
+                  github repo
+                </a>
+              </h2>
               {this.state.videos.map((vid, i) => (
                 <Video key={i} data={vid} />
               ))}
